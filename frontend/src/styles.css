@@ -208,6 +208,23 @@ select {
   color: var(--muted);
 }
 .tag.on { border-color: var(--accent); color: var(--accent); }
+.tag.bad { border-color: var(--danger); color: var(--danger); }
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 10px;
+}
+
+input[type="number"] {
+  min-width: 160px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  background: var(--bg);
+  color: var(--ink);
+  font: inherit;
+}
 
 @media (max-width: 800px) {
   .topbar, .content, .ribbon { padding-left: 16px; padding-right: 16px; }

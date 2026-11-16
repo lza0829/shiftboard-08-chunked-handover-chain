@@ -21,9 +21,9 @@
       <span class="dot">→</span>
       <span>交班中</span>
       <span class="dot">→</span>
-      <span>接班确认</span>
+      <span>分段链条按序过户</span>
       <span class="dot">→</span>
-      <span>对账落档</span>
+      <span>并集对账落档</span>
     </div>
     <main class="content">
       <router-view />
